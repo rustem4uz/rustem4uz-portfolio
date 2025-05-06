@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta developer="emirveliyevrustem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rustem4uz-portfolio</title>
+    <style>
+        body {
+        background-color: #111;
+        color: white;
+        margin: 0px;
+        font-family: Arial;
+        }
+
+        .main-box {
+        width: 90%;
+        max-width: 700px;
+        margin: 50px auto;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 25px;
+        border-radius: 15px;
+        border: 2px solid red;
+        box-shadow: 0 0 15px red;
+        text-align: center;
+        position: relative;
+        }
+
+        .title {
+        font-size: 28px;
+        margin-bottom: 15px;
+        }
+
+        .desc {
+        font-size: 18px;
+        margin-bottom: 30px;
+        }
+
+        .link-btn {
+        display: inline-block;
+        color: red;
+        border: 1px solid red;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        }
+
+        .link-btn:hover {
+        background-color: red;
+        color: black;
+        }
+
+        .gradient-border {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        right: -10px;
+        bottom: -10px;
+        z-index: -1;
+        background: linear-gradient(45deg, red, darkred, crimson, red);
+        background-size: 200% 200%;
+        animation: moveBorder 6s infinite;
+        filter: blur(40px);
+        border-radius: 20px;
+        }
+
+        @keyframes moveBorder {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-box">
+    <div class="gradient-border"></div>
+    <h1 class="title">example for name</h1>
+    <p class="desc">example for description</p>
+    <a class="link-btn" href="https://example.com">example for link</a>
+</div>
+
+</body>
+</html>
