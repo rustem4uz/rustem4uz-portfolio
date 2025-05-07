@@ -112,4 +112,11 @@
             .main-box {
                 padding: 20px 15px;
             }
+
+            .credit {
+                font-size: 0.8rem;
+                padding: 3px 8px;
+                bottom: 15px;
+                right: 15px;
+            } 
         }
