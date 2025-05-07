@@ -1,2 +1,10 @@
 # rustem4uz-portfolio
-This repository contains the source code for my personal portfolio website. It will be updated as I add new projects and improve the design.
+# 🏆 Мое портфолио
+
+## Технологии  
+- HTML5, CSS3
+
+## Как посмотреть?  
+Открой демо: [GitHub Pages](https://rustem4uz.github.io/portfolio)  
+
+📫 Связь: [Telegram](https://t.me/emir4uz) | [VK](https://vk.com/rustem4uz)  
