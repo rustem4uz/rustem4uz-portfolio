@@ -1,7 +1,7 @@
 # 🏆 Мое портфолио
 
 ## Технологии  
-- HTML5, CSS3
+- HTML5, CSS3, JavaScript
 
 ## Как посмотреть?  
 Открой демо: [GitHub Pages](https://rustem4uz.github.io/rustem4uz-portfolio/)  
