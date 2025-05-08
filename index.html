@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+  <meta charset="UTF-8" />
+  <meta name="author" content="emirveliyevrustem">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>rustem4uz - portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="buttons">
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </nav>
+
+    <header class="header">
+    <img src="author.jpg" alt="author" class="profile-img"/>
+      <div class="header-text">
+        <h2>Hello I'm rustem4uz</h2>
+        <p> Jr.Frontend Developer</p>
+        <button class="btn" onclick="window.open('https://vk.com/rustem4uz', '_blank')">ВКонтакте</button>
+        <button class="btn btn-blue" onclick="window.open('https://t.me/emir4uz', '_blank')">Telegram</button>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <h3>About Me</h3>
+      <div class="cards">
+        <div class="card">Experience: 3 month</div>
+        <div class="card">Projects: 5+ completed</div>
+      </div>
+      <p class="description">Я изучаю frontend и разрабатываю сайты. Владею HTML, CSS, JavaScript на уровне начинающего, но быстро учусь.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h3>My Projects</h3>
+
+    <div class="project-card">
+        <div class="gradient-border"></div>
+        <h1 class="title">5. Краткая хронология истории республики Узбекистан.</h1>
+        <p class="desc">Быстрая и качественная информация об истории современного Узбекистана.</p>
+        <button class="btn btn-blue" onclick="window.open('https://rustem4uz.github.io/rustem4uz-uzbekistan-history/')">Перейти на страницу</button>
+    </div>
+        
+    <div class="project-card">
+        <div class="gradient-border"></div>
+        <h1 class="title">4. Слежка за финансами</h1>
+        <p class="desc">Вносите свои доходы и расходы, получайте подробный график и чистую прибыль за определенный период!</p>
+        <button class="btn btn-blue" onclick="openProject('https://rustem4uz.github.io/rustem4uz-finance-tracker/')">Перейти на страницу</button>
+    </div>
+        
+    <div class="project-card">
+        <div class="gradient-border"></div>
+        <h1 class="title">3. Отзывы клиентов</h1>
+        <p class="desc">Отзывы пользователей о сервисе с анимациями и звездным рейтингом. Простая и стильная страница с отзывами и аватарами.</p>
+        <button class="btn btn-blue" onclick="window.open('https://rustem4uz.github.io/rustem4uz-reviews/')">Перейти на страницу</button>
+    </div>
+        
+    <div class="project-card">
+        <div class="gradient-border"></div>
+        <h1 class="title">2. Маркетплейс</h1>
+        <p class="desc">Простой шаблон маркетплейса на HTML и CSS.</p>
+        <button class="btn btn-blue" onclick="window.open('https://rustem4uz.github.io/rustem4uz-market/')">Перейти на страницу</button>
+    </div>
+        
+    <div class="project-card">
+        <div class="gradient-border"></div>
+        <h1 class="title">1. Портфолио</h1>
+        <p class="desc">Страница со всеми проектами rustem4uz</p>
+        <button class="btn btn-blue" id="currentPageBtn">Перейти на страницу</button>
+    </div>
+        <a class="credit" href="https://github.com/rustem4uz" target="_blank">made by rustem4uz</a>
+  </div>
+  <div id="notifications"></div>
+  <script src="script.js"></script>
+</body>
+</html>
